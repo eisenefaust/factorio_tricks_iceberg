@@ -13,8 +13,20 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Inserter dragging over entities
 - Standard 
 - Double bindings of keybinds
-  - extremely useful for 
-- Standard layouts (common smelter, gc build, labs, mall)
+  - extremely useful for double rotate in 1.1 before they added flip keybinds 
+- Standard layouts (common furnace stack, green chip build, labs, mall)
+  - standard furnace stack
+    - ![standard_furnace_stack](images\standard_furnace_stack.png)
+      - Also note that you can partially upgrade the input and output to reduce material cost like this:
+      - ![standard_furnace_stack_partial_upgrade](images\standard_furnace_stack_partial_upgrade_red_belt.png)
+      - or like this with yellow undergrounds instead:
+      - ![standard_furnace_stack_partial_upgrade_undergrounds](images\standard_furnace_stack_partial_upgrade_undergrounds.png)
+  - standard steel furnace stack
+    - ![standard_steel_furnace_stack](images\standard_steel_furnace_stack.png)
+    - partial upgrade works for steel as well, but since slow to produce, don't need to deal with output on this stack build:
+    - ![standard_steel_furnace_stack_partial_upgrade](images\standard_steel_furnace_stack_partial_upgrade.png)
+  - standard green chip build just before mall
+    - ![standard_green_chip](images\standard_green_chip.png)
 - Dropping things into another player’s inventory
 - Integer overflow
 - Double readings of circuits
@@ -211,7 +223,15 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
   - Can see how much heat something consumes on Aquilo this way!
   - will open browser to relevant pages in the wiki as needed
 
+- [autocrafter circuitry explanation](https://www.twitch.tv/videos/2613056573)
 
+
+- inserter item throughput and base handsize
+  - yellow is 5/6 (0.8333333333) items/s (handsize 1)
+  - red is 1.2 items/s (handsize 1)
+  - blue is 2.4 items/s (handsize 1)
+  - bulk (green) is 2.4 items/s (handsize 2)
+  - stack (white) is 2.4 items/s (handsize 6)
 
 - https://www.reddit.com/r/factorio/comments/1oucpvl/psa_you_can_get_33_more_science_for_free_by/
 
