@@ -16,17 +16,17 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
   - extremely useful for double rotate in 1.1 before they added flip keybinds 
 - Standard layouts (common furnace stack, green chip build, labs, mall)
   - standard furnace stack
-    - ![standard_furnace_stack](images\standard_furnace_stack.png)
+    - ![standard_furnace_stack](images/standard_furnace_stack.png)
       - Also note that you can partially upgrade the input and output to reduce material cost like this:
-      - ![standard_furnace_stack_partial_upgrade](images\standard_furnace_stack_partial_upgrade_red_belt.png)
+      - ![standard_furnace_stack_partial_upgrade](images/standard_furnace_stack_partial_upgrade_red_belt.png)
       - or like this with yellow undergrounds instead:
-      - ![standard_furnace_stack_partial_upgrade_undergrounds](images\standard_furnace_stack_partial_upgrade_undergrounds.png)
+      - ![standard_furnace_stack_partial_upgrade_undergrounds](images/standard_furnace_stack_partial_upgrade_undergrounds.png)
   - standard steel furnace stack
-    - ![standard_steel_furnace_stack](images\standard_steel_furnace_stack.png)
+    - ![standard_steel_furnace_stack](images/standard_steel_furnace_stack.png)
     - partial upgrade works for steel as well, but since slow to produce, don't need to deal with output on this stack build:
-    - ![standard_steel_furnace_stack_partial_upgrade](images\standard_steel_furnace_stack_partial_upgrade.png)
+    - ![standard_steel_furnace_stack_partial_upgrade](images/standard_steel_furnace_stack_partial_upgrade.png)
   - standard green chip build just before mall
-    - ![standard_green_chip](images\standard_green_chip.png)
+    - ![standard_green_chip](images/standard_green_chip.png)
 - Dropping things into another player’s inventory
 - Integer overflow
 - Double readings of circuits
@@ -193,9 +193,9 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
   - unequip ammo or otherwise attempt to shoot without ammo
 
 - blocking nest spawns with pipe
-  - ![nest_pipe_block](images\nest_pipe_block.png)
+  - ![nest_pipe_block](images/nest_pipe_block.png)
 - use turrets with target filtering set to make your life easy
-  - ![turret_nest_filtering](images\turret_nest_filtering.png)
+  - ![turret_nest_filtering](images/turret_nest_filtering.png)
 - Double reach when placing belts
   - [clip](https://discord.com/channels/260103071017730048/1435625958576226405/1435654333898293332)
 - placing inserters inside stationary cargo wagons
@@ -211,9 +211,9 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - car driving mode in controls settings
 
 - tips and tricks has lots of good information
-  - ![tips_and_tricks](images\tips_and_tricks.png)
+  - ![tips_and_tricks](images/tips_and_tricks.png)
 - as does Factoriopedia
-  - ![factoriopedia](images\factoriopedia.png)
+  - ![factoriopedia](images/factoriopedia.png)
 - `e` will confirm the window you are on, useful to quickly accept recipe or set filters or many other things. very useful for "Default Settings" speedruns
 - in multiplayer can use `[armor=name]` where name is the player in the chat (press \` to open the chat to enter a command by default)
 - `/editor` or `Ctrl + shift + F11`
