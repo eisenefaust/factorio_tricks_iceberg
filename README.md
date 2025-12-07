@@ -8,6 +8,7 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 
 - Blueprint to logi request
 - Z to single drop (hotkey `z`)
+  - spamming `z` on belts to drop items faster
 - Combinations of control and left / right click for all inventory or held stack
 - Inserter dragging over entities
 - Standard 
@@ -20,7 +21,8 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Filter order dependant on item id
 - Dropping stuff on ground and building over it
 - Using item production as counters / limiters for other assemblers in very weird mall setups (like using assemblers in chest and taking them out as a signal, new 100p design)
-- Fast replace of belt with splitters or ugs
+- Fast replace of belt with splitters or undergounds
+  - [Mazmot's trick](https://discord.com/channels/260103071017730048/1435625958576226405/1435649420594122813)
 - Prerotate with entities that dont have a rotation
 - Belt prio of closer side
   - In combi with that: mixed mining
@@ -49,7 +51,7 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Speed change of inserters depening on target / giver
 - Mixed smelting
 - Smoothie pipes
-- dragging the flag
+- dragging the flag in a blueprint
 
 - poledancing or poledrag 
   - performed by holding down LMB to drag a power pole, switch to inserter, and then switch back power pole.
@@ -88,6 +90,8 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - inserting modules into beacons with inserters
 - Tank requester chests
 - Compressors >>> balancers
+  - compressor blueprint book in save game and in discord by \!compressorbp
+  - ![compressor example](https://i.imgur.com/lzoj6iL.png)
 - Landfill in blueprints for outlines and guidelines
 - impact of low power on UPS
 - Snap to grid for big base alignment 
@@ -108,4 +112,108 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Using red belt for lowered belt delay (as opposed to higher throughput)
 - Belt corners being faster
 - inserter chain instean of belt
-- pullution & chunk mechanics
+- pollution & chunk mechanics
+  - manipulating biter expansion by placing entities in unclaimed chunks (more useful for Death World challenges).
+  - great [video explaining this (at 4:40)](https://www.youtube.com/watch?v=SPfP9LN1o8o&t=280s) by Michael Hendriks
+- how to enable grid/more hotkey rows/alt mode/disable subgroups/flat inventory etc
+- how to disable decoratives
+
+- Color shading for better visibility
+ 
+- Hotkeys and why they (kind of) dont matter
+ 
+- Shooting shipwreck parts in tas
+- Mining progress being kept
+ 
+- replays how to enable them and use them 
+ 
+- how to setup several instances
+ 
+- setup shared savegames
+ 
+- The rest settings
+ 
+- Reducing explosions and gun sounds
+ 
+- change preview chunks
+ 
+- unsorting your inventory for more flexibility, very advanced strat
+- 1:1 monitor for max visiblility
+- Stellar parallax alignment
+
+- The scaling difficulties in factorio: [you cant just build bigger](https://discord.com/channels/260103071017730048/1435625958576226405/1435642406006558881)
+  - Going twice as fast requires building twice as much in half the time, so 4 times the building speed
+  - The quadratic scaling law
+
+- Micro gaps in belt to allow for sideloading
+
+- [Sushi builds that don't use any circuitry](https://discord.com/channels/260103071017730048/1435625958576226405/1435644090963460346)
+- Train tracks vs belt
+- Worm dancing or worm wiggle
+  - hold `a`/`w` and tap `d`/`s` to wiggle between the two directions. Since spitters target where you are going and not where you are, you will be prevented taking hits from spitters while taking on the biter nests 
+- Stacking guns in your gun slots
+- 400k steel in one assembler
+- Fluid void by recipe change
+- skipping the cutscene
+- Gravitational pull at halfway point and oddity with the target changing this behavior
+- Space platform hub only being sorted when you look at it (causes inserters to grab items in different order from hub if you have looked or not)
+- Deconstruction of stuff on space platform voiding it
+
+- Building large basic oil and only doing advanced for lubricant/rocket fuel, skipping cracking
+- segmenting your nuclear power plant to mitigate the effects of adding nuclear reactors causing dramatic temperature drops.
+
+- Circuitry being usable via imported blueprint without unlocking circuit network
+- research construction bots before you'll get entity ghosts for destroyed entities (biters, Anti running into them with a car, etc)
+- shift click for fast research queuing
+- the various ways of killing trees instead of mining them
+- limit production rate by inserter amout/inserter capacity limiting
+- nuking landfill for increased pollution absorption
+- lab chaining/boiler chaining
+- landfilling offshore pumps
+- Zig zag belts for shorter belt delay
+
+- car belts
+- abusing biter pathfinding with wall funnels
+- offensive land mines
+- discharge defense for segmented enemies
+
+- Melee attacking
+  - unequip ammo or otherwise attempt to shoot without ammo
+
+- blocking nest spawns with pipe
+  - ![nest_pipe_block](images\nest_pipe_block.png)
+- use turrets with target filtering set to make your life easy
+  - ![turret_nest_filtering](images\turret_nest_filtering.png)
+- Double reach when placing belts
+  - [clip](https://discord.com/channels/260103071017730048/1435625958576226405/1435654333898293332)
+- placing inserters inside stationary cargo wagons
+  - [clip](https://discord.com/channels/260103071017730048/1435625958576226405/1435652850398003271)
+
+- demolisher baiting to destroy cliffs
+- thruster underfueling for better fuel efficiency
+- building rail while driving locomotive
+- turret creep
+- crafting queue black hole storage
+- /permissions to disable handcrafting for lazy bastard
+  - can also unset the hotkey
+- car driving mode in controls settings
+
+- tips and tricks has lots of good information
+  - ![tips_and_tricks](images\tips_and_tricks.png)
+- as does Factoriopedia
+  - ![factoriopedia](images\factoriopedia.png)
+- `e` will confirm the window you are on, useful to quickly accept recipe or set filters or many other things. very useful for "Default Settings" speedruns
+- in multiplayer can use `[armor=name]` where name is the player in the chat (press \` to open the chat to enter a command by default)
+- `/editor` or `Ctrl + shift + F11`
+- `Ctrl + Shift + E` to open prototype explorer to see what is your current game.
+  - will open browser to relevant pages in the wiki as needed
+- `Ctrl + Shift + F` to open prototype page of entity you are hovering over with your mouse.
+  - Can see how much heat something consumes on Aquilo this way!
+  - will open browser to relevant pages in the wiki as needed
+
+
+
+- https://www.reddit.com/r/factorio/comments/1oucpvl/psa_you_can_get_33_more_science_for_free_by/
+
+
+- not speedrun oriented, but a generically useful new player focused video can be found [here](https://youtu.be/E7ShDWXvD4M?si=eOPzi3Ld4NxOTDuR)
