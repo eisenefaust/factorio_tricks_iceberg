@@ -143,7 +143,7 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
  
 - setup shared savegames
  
-- The rest settings
+- The rest settings - ctrl + alt + click on settings in the menu
  
 - Reducing explosions and gun sounds
  
@@ -232,6 +232,15 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
   - blue is 2.4 items/s (handsize 1)
   - bulk (green) is 2.4 items/s (handsize 2)
   - stack (white) is 2.4 items/s (handsize 6)
+
+- disable multi undo
+  - ![disable_multi_undo](images/disable_multi_undo.png)
+
+- vulcanus demolisher/worm strats
+  - poison capsule only
+    - AntiElitz Default Settings 8:24:39, [demolisher poison capsule only example at 6:01:14](https://www.youtube.com/watch?v=izWmchnJGSE&t=21674s)
+  - turret pulling (energy shield for extra safety)
+    - Nefrums Default Settings 8:29:44, [demolisher poison capsule + turrets example at 5:18:10](https://www.youtube.com/watch?v=ddEQPtxl7MY&t=19089s)
 
 - https://www.reddit.com/r/factorio/comments/1oucpvl/psa_you_can_get_33_more_science_for_free_by/
 
