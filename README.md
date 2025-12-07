@@ -60,7 +60,7 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
   - paperclip performed by drawing a paperclip shape a half stack will look like a letter `U`, `C`, `J` depending on orientation.
   - the hook is then performed by using a flip or double rotate in the middle to place the lane next to you.
   - [clip](https://www.twitch.tv/zaspar_/clip/TacitEphemeralNuggetsChefFrank-QCtG5Hzet-gSjLif) of Zaspar performing hook
-  - ![paperclip example](example_images/paperclip.png)
+  - ![paperclip example](images/paperclip.png)
 - smart belt turn off (with pipette and place)
 - pick placing or Q placing (hotkey `q`)
 
