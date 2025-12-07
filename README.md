@@ -46,13 +46,13 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Prerotate with entities that dont have a rotation
 - Belt prio of closer side
   - In combi with that: mixed mining
-- When is belt faster than diagonal at blue tier
+- Walking around the corner on a belt is only faster than the diagonal at blue belt and above
 - Counting items with burner inserters
-- Logic requests multiplier
-- Storage of item in recipe changed assembler (manual and auto)
+- Logic requests multiplier (which also goes under 1x meaning you can use 0.1 to request 20 science packs into a requester chest instead of a full stack)
+- Storage of item in recipe changed assembler (manual and auto). when you manually change the recipe and assign it back you can amass extreme item counts. i can attest to it working to at least half a million steel)
 - Liquid ouput goes into input when recipe changed and same liquid
-- Pumpthrough with chemplant
-- Speed modules being soletimes better for quality
+- Pumpthrough with chemplant (to turn a fully full pipe) outdated with 2.0
+- Speed modules being sometimes better for quality module utilization. as in: very high quality quality module and one speed module being used resulting in higher utilization of said qmod.
 - Pppppp (Pantabo's Performant Power Pole Placement Plan) or blipi (Belt Lock Interrupt Placement Interpolation)
   - belt lock 
   - must click and hold on belt as if you are going to drag it, bring cursor out of range, switch entities to what you want to place and then back to original belt. The game will place new entities between where you started to drag belts to where your cursor is, until it is out of range to place the new entity. you switch back to  the belt to have your movement make your cursor attach to the new position of the new belt position so you can place the next row or column of entities. In the example video, a belt is selected and the new entity is yellow inserter or power poles depending on the row, the furnaces are already placed to prevent new entities from being placed in those positions. The upgrade planner is used to prevent placing belts in the empty gaps.
@@ -61,7 +61,8 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Quality filter for nutrients
 - Higher tier items not being used as often
 - Auto crafter
-- Using raw ingedients instead of bulk in rockets
+- Using raw ingedients to then craft stuff on the space ship.
+- mixed rockets
 - Common targets in early game
 - Scaling fast and balance of mall / Production / science 
 
@@ -86,20 +87,20 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - smart belt turn off (with pipette and place)
 - pick placing or Q placing (hotkey `q`)
 
-- Recyclers adding to total production count
+- Recyclers adding to total production count (discovered by the bestest, brightest, most competent speedrunner known as pantabo1). useful for gc achievment -> craft gc in emp, put those into combinator assembler, then into a recycler that goes back into the assembler. reason for being useful despite no productivity bonus: low additional cost of copper wire in addition to the gc. saves recyclers and there was another few reasons which i dont remember.
 - zippering from Zaspar's TAS
 - bot queue management
-- Using achievment for esrly warning of attack
+- Using achievment for early warning of attack
 - Decon planner specifics in general: ghost types, fruits, items etc
 - land mine spam
 - wall ship
-- Thruster stacking
+- Thruster stacking: you can put another row of thrusters behind already existing ones when you go more than 100 (?) tiles behind them. useful because of extra speed without added width which would otherwise slow you down.
 - Manual wiring of power poles, especially to isolate power networks, like in the old 100% power plant for pumps, and Aquilo for the water bootstrap
-- Quality ice
+- Quality ice: uncommon ice from fulgora or from space dropped to aquilo to craft uncommon cryo science to save one rocket.
 - Trees on vulcanus for achievment
 - Nukes for cliffs
 - moving the storage chest for faster bot beacon decon
-- Cars to bridge lava
+- Cars to bridge lava. cars hitbox in general -> can put the car essentially on top of inserters. can allow for stupid setups (look up antis fulgora island design)
 - Construction belt
 - using boilers to filter fuel from mixed lanes 
 - prerotate in general
@@ -107,8 +108,8 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - fast feeding personal asm with craftingqueue canceling
 - quality speedmodules cutting energy comsumption
 - filtering of chests with middle mouse
-- inserting modules into beacons with inserters
-- Tank requester chests
+- inserting modules into beacons with inserters (and taking them out) can be used to not have to remember to upgrade plan them (may or may not have been used in 100p runs by nefrums? most likely not)
+- Tank requester chests: tanks have logistic request slots. can theoretically be used as requester chests
 - Compressors >>> balancers
   - compressor blueprint book in save game and in discord by \!compressorbp
   - ![compressor example](https://i.imgur.com/lzoj6iL.png)
@@ -118,8 +119,8 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - power alarm
 - impact of changing RAM clock speed on UPS
 - pumpless advanced oil setups
-- 100+% productivity exploit
-- Positive feedback loop of plastic auality with lds
+- 100+% productivity exploit: reassign a recipe after getting the prod bonus but before the items are consumed
+- Positive feedback loop of plastic auality with lds and recycling lds.
 - Using artillery in space to shoot asteroids
   - After like 80 levels of artillery speed and damage, and like 100 artillery with multiple shells each, you can kill a huge asteroid at like 10km/s (From [GlassBricks](https://discord.com/channels/260103071017730048/1435625958576226405/1435632309083705424))
   - can't quite skip railgun yet with it
