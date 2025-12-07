@@ -35,6 +35,14 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Using item production as counters / limiters for other assemblers in very weird mall setups (like using assemblers in chest and taking them out as a signal, new 100p design)
 - Fast replace of belt with splitters or undergounds
   - [Mazmot's trick](https://discord.com/channels/260103071017730048/1435625958576226405/1435649420594122813)
+  - Issue: Misplace belt -> have to mine whole belt to fix it (mining 1 entity per tile)
+    - Two potentially faster options:
+    - Replace with underground, then mine. 2 entities mined per 6 tiles. Usually doesn't save you time unless you mess up a lot of belts, but is nice in those situatiosn
+      - Replace belt with a line of splitters, then fast replace the splitters with a belt 1 tile over.
+        - needs good precision
+        - only works for shifting 1 tile (but that's the most common mistake)
+        - needs a dozen or so splitters to be worth it
+
 - Prerotate with entities that dont have a rotation
 - Belt prio of closer side
   - In combi with that: mixed mining
