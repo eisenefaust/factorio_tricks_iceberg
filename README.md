@@ -3,8 +3,11 @@ speedrun tricks and notes about Factorio
 
 Based on the [thread](https://discord.com/channels/260103071017730048/1435625958576226405) of the same title in the [Steel Axe discord](https://discord.gg/AntiElitz)
 
-The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) has some of the examples listed below along with various useful blueprints available. The mods that are used in the save file are ones that have generally been found useful to plan runs, please read about them on the mod portal or feel free to ask about them in the Steel Axe discord.
+The save file is available in the release files on GitHub `Factorio_Tricks.zip`. It has some of the examples listed below along with various useful blueprints available.  
 
+The mods that are used in the save file are ones that have generally been found useful to plan runs, please read about them on the mod portal or feel free to ask about them in the Steel Axe discord.
+
+The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Factorio_Iceberg_Blueprint_Book.txt)
 
 - Blueprint to logi request
 - Z to drop single items (hotkey `Z`) (Z-drop)
