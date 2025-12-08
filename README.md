@@ -40,18 +40,19 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
       - ![standard_green_chip_full_fast_inserter](images/standard_green_chip_full_fast_inserter.png)
     - this variant is faster to setup since it has straight belt drags and only one inserter types.
       - ![standard_green_chip_full_red_inserter_only](images/standard_green_chip_full_red_inserter_only.png)
-- Integer overflow
+- Integer overflow/underflow
 - Double readings of circuits
 - Filter order dependant on item id
 - Dropping stuff on ground and building over it
 - Using item production as counters / limiters for other assemblers in very weird mall setups (like using assemblers in chest and taking them out as a signal, new 100p design)
 
 - Fast replace of belt with splitters or undergounds
-  - [Mazmot's trick](https://discord.com/channels/260103071017730048/1435625958576226405/1435649420594122813)
+  - [Mazmot's trick](https://discord.com/channels/260103071017730048/1435625958576226405/1447436119787442268)
   - Issue: Misplace belt -> have to mine whole belt to fix it (mining 1 entity per tile)
     - Two potentially faster options:
-    - Replace with underground, then mine. 2 entities mined per 6 tiles. Usually doesn't save you time unless you mess up a lot of belts, but is nice in those situatiosn
-      - Replace belt with a line of splitters, then fast replace the splitters with a belt 1 tile over.
+      - Trick 1: Using underground belts to span the errant belts, and then mine the underground belts, requiring less mining time.
+      - Trick 2: If an errant belt span is laid down next to a belt that should be there, you can use a bunch of splitters to remove the errant one by putting a bunch of splitters down to cover both belts, and then overbuild the correct belt-splitter with belt, and drag forward, to auto pick up the splitters and remove the errant belt.
+        - https://www.twitch.tv/mazmot/clip/PunchyStrongKoupreyKappa-zqZa6HHYjNHXZNGu
         - needs good precision
         - only works for shifting 1 tile (but that's the most common mistake)
         - needs a dozen or so splitters to be worth it
