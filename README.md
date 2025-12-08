@@ -80,7 +80,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - standard green chip build
     - double yellow inserter allows the assembler 1 to make copper wire at 6/7 of its maximum rate. With fast inserter it is able to run at its max rate.
       - ![standard_green_chip](images/standard_green_chip.png)
-    - this is the standard full green chip build setup to produce two 
+    - this is the standard full green chip build setup to produce two yellow belts of green chips
       - ![standard_green_chip_full_fast_inserter](images/standard_green_chip_full_fast_inserter.png)
     - this variant is faster to setup since it has straight belt drags and only one inserter types.
       - ![standard_green_chip_full_red_inserter_only](images/standard_green_chip_full_red_inserter_only.png)
@@ -146,6 +146,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - demolisher baiting to destroy cliffs
 - vulcanus demolisher/worm strats
   - poison capsule only
+    - you can see himi worm wiggle here to throw capsules more quickly
     - AntiElitz Default Settings 8:24:39, [demolisher poison capsule only example at 6:01:14](https://www.youtube.com/watch?v=izWmchnJGSE&t=21674s)
   - turret pulling (energy shield for extra safety)
     - Nefrums Default Settings 8:29:44, [demolisher poison capsule + turrets example at 5:18:10](https://www.youtube.com/watch?v=ddEQPtxl7MY&t=19089s)
