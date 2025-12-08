@@ -82,7 +82,7 @@ The save file found in [saves/Factorio_Tricks.zip](saves/Factorio_Tricks.zip) ha
 - Speed change of inserters depening on target / giver
 - Mixed smelting
 - Smoothie pipes
-  - ![Smoothie_pipes](Smoothie_pipes.png)
+  - ![Smoothie_pipes](images/Smoothie_pipes.png)
 - dragging the flag in a blueprint
 
 - poledancing or poledrag 
