@@ -60,13 +60,19 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - how to disable decoratives
 - Color shading for better visibility
 - 1:1 monitor for max visiblility
-- [Stellar parallax alignment](https://discord.com/channels/260103071017730048/1435625958576226405/1435641650675323031)
 - /permissions to disable handcrafting for lazy bastard
   - can also unset the hotkey
 - car driving mode in controls settings
 
+# Guides
+- How to stream Factorio, setup OBS [How to stream Factorio](https://www.youtube.com/watch?v=bsfmgXaw1SQ)
+- Speedrun Guide for 1.1 [Speedrun Guide 1.1](https://docs.google.com/presentation/d/1XgyTdHzQM1cQrv1YpZJuRGtMv6AE9j4h6Phdn4Fe8-c/edit?usp=sharing)
+- Speedrun Guide for 2.0 Space Age RSNG+[RSNG+ Guide](https://docs.google.com/presentation/d/1LxBz_OzHweOGSpxfq_P0Q06UkK9GzvkGe9rki07H_8E/edit?slide=id.g91035a48d7_686_346#slide=id.g91035a48d7_686_346)
+- not speedrun oriented, but a generically useful new player focused video can be found [here](https://youtu.be/E7ShDWXvD4M?si=eOPzi3Ld4NxOTDuR)
+
 # extremely useful techniques
 - skipping the cutscene
+  - mash tab key at the start of a run
 - poledancing or poledrag 
   - performed by holding down left click to drag a power pole, switch to inserter, and then switch back power pole.
   - In 1.1 this was about 14 frames to swap between the two hotkeys, [in 1.1 Anti had power pole bound to right click](https://www.youtube.com/watch?v=97EaNC_NftA&t=607s) so he could drag with one extra key and have the double binding help him.
@@ -126,8 +132,11 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
     - this variant is faster to setup since it has straight belt drags and only one inserter types.
       - ![standard_green_chip_full_red_inserter_only](images/standard_green_chip_full_red_inserter_only.png)
 - underground belt sideloading
-- Smoothie pipes
+- mixed fluid pipes/ mixed pipes/ sushi pipes/ smoothie pipes
+  - this all refers to the same idea that of using pipes to hold or buffer fluid or liquid for crafting. Most commonly in advanced oil, but also fairly common with foundries.
   - ![Smoothie_pipes](images/smoothie_pipes.png)
+  - [AntiElitz building oil](https://www.twitch.tv/antielitz/clip/GoodBeautifulPeanutTwitchRPG-fVA2PmykxMwWs5y4)
+  - [Zaspar building oil with 2.0 flipped oil refinery](https://discord.com/channels/260103071017730048/1435625958576226405/1447993169881989231)
 - Mixed smelting
 - wall ship
 - Circle station
@@ -294,8 +303,10 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - lab chaining/boiler chaining
 - landfilling offshore pumps
 - if mining crates/boxes, faster to quick-replace with wooden crates/boxes before mining (pretty much TAS only though)
-
-- not speedrun oriented, but a generically useful new player focused video can be found [here](https://youtu.be/E7ShDWXvD4M?si=eOPzi3Ld4NxOTDuR)
+- [Stellar parallax alignment](https://discord.com/channels/260103071017730048/1435625958576226405/1447938302828216452)
+  - using far away features of the map to ghost in some belts in a straignt line to mark x and y position to align blueprint. 
+    - for example a specific rock used to get x position ghost belted in and certain tree ghost belted in and where they cross in the alignment point.
+  - not really all thay useful generally but sometimes used for speedrun categories with a set seed where you import blueprints.
 
 # Unorganized Topics Still
 - Standard 
