@@ -124,19 +124,27 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
     - ![standard_steel_furnace_stack](images/standard_steel_furnace_stack.png)
     - partial upgrade works for steel as well, but since slow to produce, don't need to deal with output on this stack build:
     - ![standard_steel_furnace_stack_partial_upgrade](images/standard_steel_furnace_stack_partial_upgrade.png)
-  - standard green chip build
-    - double yellow inserter allows the assembler 1 to make copper wire at 6/7 of its maximum rate. With fast inserter it is able to run at its max rate.
+  - standard green chip build [GC]
+    - double yellow inserter allows the assembler 1 to make copper wire at 6/7 (was 5/6 in 1.1) of its maximum rate. With fast inserter it is able to run at its max rate.
+    - this is used to build up a buffer in the base and go into the mall
       - ![standard_green_chip](images/standard_green_chip.png)
     - this is the standard full green chip build setup to produce two yellow belts of green chips
       - ![standard_green_chip_full_fast_inserter](images/standard_green_chip_full_fast_inserter.png)
     - this variant is faster to setup since it has straight belt drags and only one inserter types.
       - ![standard_green_chip_full_red_inserter_only](images/standard_green_chip_full_red_inserter_only.png)
+  - standard Red Chip [RC]
+    - TODO add example from Nefrums Any% Guide or something
 - underground belt sideloading
 - mixed fluid pipes/ mixed pipes/ sushi pipes/ smoothie pipes
   - this all refers to the same idea that of using pipes to hold or buffer fluid or liquid for crafting. Most commonly in advanced oil, but also fairly common with foundries.
   - ![Smoothie_pipes](images/smoothie_pipes.png)
   - [AntiElitz building oil](https://www.twitch.tv/antielitz/clip/GoodBeautifulPeanutTwitchRPG-fVA2PmykxMwWs5y4)
   - [Zaspar building oil with 2.0 flipped oil refinery](https://discord.com/channels/260103071017730048/1435625958576226405/1447993169881989231)
+- Mixed builds (Low Density Structures [LDS], Blue Chips [BC], Red Chip [RC])
+  - Commonly built up from existing Green Chip builds and Red Chips
+    - Harder to define as a general standard as the needs of the specifc run may vary and the choice of Green Chip and Red Chip used as the for the mixed build may vary. 
+    - Main point is that it is fast to build and modify from existing Green Chips and Red Chips and that the Red Chips in a Mixed build are overproduced for itseelf to make Blue Chips and excess Red Chips.
+    - The ratios of total LDS, Blue Chips and Red Chips also are tuned for the specific needs of the run but generally have less than 1 Copper Plate belt of input and are duplicated for production needs.
 - Mixed smelting
 - wall ship
 - Circle station
