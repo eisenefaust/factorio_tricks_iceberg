@@ -19,7 +19,8 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - ![stack_transfers](images/stack_transfers.png)
 - Inserter dragging over entities
 - Double bindings of keybinds
-  - extremely useful for double rotate in 1.1 before they added flip keybinds 
+  - recommend to double bind `Enter/leave vehicle` with the hot key for the vehicle that way you can double tap it to place and enter quickly since 2.0 automatically fuels your vehicle from inventory you can just go!
+  - extremely useful for double rotate in 1.1 before they added flip keybinds
 - shift + right click to copy, shift + left click to paste entity settings
   - this works for all entities, filters, splitters, etc.
   - ![copy_paste_entity_settings](images/copy_paste_entity_settings.png)
@@ -66,8 +67,16 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 
 # Guides
 - How to stream Factorio, setup OBS [How to stream Factorio](https://www.youtube.com/watch?v=bsfmgXaw1SQ)
-- Speedrun Guide for 1.1 [Speedrun Guide 1.1](https://docs.google.com/presentation/d/1XgyTdHzQM1cQrv1YpZJuRGtMv6AE9j4h6Phdn4Fe8-c/edit?usp=sharing)
-- Speedrun Guide for 2.0 Space Age RSNG+[RSNG+ Guide](https://docs.google.com/presentation/d/1LxBz_OzHweOGSpxfq_P0Q06UkK9GzvkGe9rki07H_8E/edit?slide=id.g91035a48d7_686_346#slide=id.g91035a48d7_686_346)
+- Factorio 2.0 (and Space Age) Guides
+  - RSNG+ Speedrun Guide for 2.0 Space Age [RSNG+ Speedrun Guide Space Age](https://docs.google.com/presentation/d/1LxBz_OzHweOGSpxfq_P0Q06UkK9GzvkGe9rki07H_8E/edit?usp=sharing)
+- Factorio 1.1 Guides
+  - Any% Speedrun Guide for 1.1 updated by Phredward [Any% Speedrun Guide 1.1 Updated](https://docs.google.com/presentation/d/1qnbjaTK_Ah-Sp1YI2hBwgYMv78WSvXLuCBds9Z0NZT8/edit?usp=sharing)
+    - Any% Speedrun Guide for 1.1 Original by Nefrums [Any% Speedrun Guide 1.1](https://docs.google.com/presentation/d/1XgyTdHzQM1cQrv1YpZJuRGtMv6AE9j4h6Phdn4Fe8-c/edit?usp=sharing)
+  - 100% Speedrun Guide 1.1 Updated by Derek [100% Speedrun Guide 1.1 Updated](https://docs.google.com/presentation/d/1zoUqGQjb64-rlJ3HL_ks8URviHq1j5R-II5FsnnC0_I/edit?usp=sharing)
+    - 100% Speedrun Guide 1.1 Original by Warger [100% Speedrun Guide 1.1 Original](https://docs.google.com/presentation/d/1M7XmNFgtRcDuXxXEtb3TMKWZptYO6FCCeoxq5_RUOsg/edit?usp=sharing)
+  - Speedrun Video Guide 1.1 - Getting On Track Like A Pro by Cobai [GOTLAP by Cobai](https://youtube.com/playlist?list=PL6vKjZxISwMKXU7nySszinSIWN561blWm)
+  - Speedrun Video Guide 1.1 - Steelaxe% by Cobai [SteelAxe by Cobai](https://youtu.be/tipih9BZpks)
+  - Speedrun Video Guide 1.1 - Wave Defense by Cobai [Wave Defense by Cobai](https://www.youtube.com/playlist?list=PL6vKjZxISwMKvMXtV7LC8DAz6jfY7G4sZ)
 - not speedrun oriented, but a generically useful new player focused video can be found [here](https://youtu.be/E7ShDWXvD4M?si=eOPzi3Ld4NxOTDuR)
 
 # extremely useful techniques
@@ -235,7 +244,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - thruster underfueling for better fuel efficiency
 
 
-## Combat Tips
+# Combat Tips
 - Eat Food to heal! Put on hotbar and use them to eat them.
   - Get fish from lake, right click to "mine" them up like when you mine ore. Can also have inserters fish for you.
   - Eat Jellynut (brains/green fruit) for a 150% movement speed boost. 
@@ -317,6 +326,9 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - not really all thay useful generally but sometimes used for speedrun categories with a set seed where you import blueprints.
 
 # Unorganized Topics Still
-- Standard 
-
-
+ideas for wiki pages
+- standard builds
+  - non-standard modifications for certain situations
+- mechanics (e.g. sushi pipes, blippi) things you can do that are not neccessairly intended but are possible
+- strategies of building for speed (e.g. direct insertion, on patch smelting) reduce delay of use from production
+  - why you should do certain things (e.g. use yellow inserters to deliver ore to smelter since it's max use/production rate)
