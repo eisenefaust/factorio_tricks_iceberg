@@ -280,6 +280,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - manipulating biter expansion by placing entities in unclaimed chunks (more useful for Death World challenges).
   - great [video explaining this (at 4:40)](https://www.youtube.com/watch?v=SPfP9LN1o8o&t=280s) by Michael Hendriks
 - nuking landfill for increased pollution absorption
+- [spawn stomper to get pentapod eggs without destroying egg rafts and locking "Keeping your hands clean"](https://www.twitch.tv/thuejk/clip/BlindingRelievedOwlPMSTwin-T6iKuwglhb5h5QR8)
 
 # good to know
 - building rail while driving locomotive
