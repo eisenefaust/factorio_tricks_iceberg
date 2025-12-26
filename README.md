@@ -77,6 +77,9 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - Speedrun Video Guide 1.1 - Getting On Track Like A Pro by Cobai [GOTLAP by Cobai](https://youtube.com/playlist?list=PL6vKjZxISwMKXU7nySszinSIWN561blWm)
   - Speedrun Video Guide 1.1 - Steelaxe% by Cobai [SteelAxe by Cobai](https://youtu.be/tipih9BZpks)
   - Speedrun Video Guide 1.1 - Wave Defense by Cobai [Wave Defense by Cobai](https://www.youtube.com/playlist?list=PL6vKjZxISwMKvMXtV7LC8DAz6jfY7G4sZ)
+- Re-Rolling:
+  - Default Settings - [DS](https://clips.twitch.tv/TolerantHeartlessSardineVoHiYo)
+  - Default Settings 100% - [DS100](https://clips.twitch.tv/LazyColorfulMeatloafSmoocherZ-8IWuwMrPvi-xTuBc)
 - not speedrun oriented, but a generically useful new player focused video can be found [here](https://youtu.be/E7ShDWXvD4M?si=eOPzi3Ld4NxOTDuR)
 
 # extremely useful techniques
