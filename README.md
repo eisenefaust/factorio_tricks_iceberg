@@ -114,6 +114,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - must click and hold on belt as if you are going to drag it, bring cursor out of range, switch entities to what you want to place and then back to original belt. The game will place new entities between where you started to drag belts to where your cursor is, until it is out of range to place the new entity. you switch back to  the belt to have your movement make your cursor attach to the new position of the new belt position so you can place the next row or column of entities. In the example video, a belt is selected and the new entity is yellow inserter or power poles depending on the row, the furnaces are already placed to prevent new entities from being placed in those positions. The upgrade planner is used to prevent placing belts in the empty gaps.
   - [clip](https://discord.com/channels/260103071017730048/260103071017730048/1399409772633260032)
   - [AntiElitz Explaining it](https://www.twitch.tv/videos/2156553379) also \!pppppp or \!blipi in the discord linked above
+- recover blueprints from save game - [https://forums.factorio.com/viewtopic.php?t=94427](https://forums.factorio.com/viewtopic.php?t=94427)
 
 # common builds
 - Belt prio of closer side
