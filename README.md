@@ -337,3 +337,28 @@ ideas for wiki pages
 - mechanics (e.g. sushi pipes, blippi) things you can do that are not neccessairly intended but are possible
 - strategies of building for speed (e.g. direct insertion, on patch smelting) reduce delay of use from production
   - why you should do certain things (e.g. use yellow inserters to deliver ore to smelter since it's max use/production rate)
+
+# generic build plan for getting to rocket launch 
+[credits to Leyrann in Team MacIntyre discord](https://discord.com/channels/1059129099433553940/1059144508002013314/1454455124142592130)
+- Use burner city to get the important red science techs.
+- Build a furnace stack for copper and iron each, make a bus (final size: 4x iron, 4x copper, 2x steel, 2x plastic, 1x stone, 1x stone brick, 1x coal, 1x sulfur = 16 lanes).
+- Build a mall.
+- Automate red and green science (10 and 12 assembly machines).
+- Build two more furnace stacks, convert an entire belt of iron ore to steel, build a half furnace stack for stone.
+- Expand your mall for stone furnaces and assembly machine 2s, upgrade your entire factory to them, increase the input and output capacity of the furnace stacks accordingly.
+- Get oil, build an oil refinery (8 refineries, 2 heavy to light cracking, 7 light to petro gas cracking should be sufficient). Produce plastic and some sulfur here too, don't need a lot of the latter.
+- Automate blue science (24 assembly machines). All ingredients (e.g. red chips, the green chips that go into them, etc) except oil-based ones are made directly from the bus too, no separate production facilities.
+- Automate bot production, 8 assembly machines for flying robot frames should be enough, scale the rest with that. Build Roboports around the base.
+- Expand your furnace stacks to have capacity for 8 yellow belts (halve the number for red) of copper ore, 8 yellow belts of iron ore to iron plate, and 4 or 6 yellow belts of iron ore to steel.
+- Build blue circuit production. If you copy the red circuit build from blue science and build everything else accordingly, you'll be making a little over 1 blue circuit per second (with assembly machine 2s).
+- Build the same amount of low density structure production. You need 1.5 times the LDS assemblers compared to blue circuit assemblers.
+- Build rocket fuel production next to the refinery. Same number of assemblers as the LDS. Make solid fuel from light oil.
+- Belt all three to the rocket silo and launch.
+
+- **Note:** if just trying to get "There is no Spoon":
+  - No need to fiddle with solar or nuclear power. Just boil more water if you need more power. Coal or solid fuel, whichever you have more of.
+  - No need for modules anywhere.
+  - No need for yellow or purple science (obviously).
+  - If you do have biters enabled, craft an early submachine gun, make sure you've got some ammo ready in case you're attacked, and between green and blue science, get yourself some grenades (I usually just handcraft them) for defending instead. It's not a big deal if the biters eat a few machines, and also don't worry about hitting your factory throwing grenades to kill the biters.
+  - If you've been attacked somewhere, place down four turrets in a square at that spot, put a wall around them, and feed them 10 or 25 ammo each. If you keep getting attacked in the same spot and/or notice that a base is quite close, use the turret creep strategy to get rid of that base. Usually, this should be more than enough to get you to that first rocket launch. Of course, you can purposefully pick a grass seed to have to deal with them less.
+  - If the biters are too big of an issue, you can build military science (10 assembly machines) either before or after blue science to unlock more stuff, but generally turrets and grenades should be enough for anything they throw at you the first eight hours.
