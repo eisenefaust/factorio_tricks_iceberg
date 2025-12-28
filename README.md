@@ -115,6 +115,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - [clip](https://discord.com/channels/260103071017730048/260103071017730048/1399409772633260032)
   - [AntiElitz Explaining it](https://www.twitch.tv/videos/2156553379) also \!pppppp or \!blipi in the discord linked above
 - recover blueprints from save game - [https://forums.factorio.com/viewtopic.php?t=94427](https://forums.factorio.com/viewtopic.php?t=94427)
+- to properly paste blueprints on Aquilo, [place concrete on different ground types first](https://www.twitch.tv/teammacintyre_derek/clip/SullenPluckySproutGrammarKing-Edm_FmUq5mgxu5fw)
 
 # common builds
 - Belt prio of closer side
