@@ -64,6 +64,8 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - /permissions to disable handcrafting for lazy bastard
   - can also unset the hotkey
 - car driving mode in controls settings
+- map rescan command: `/c game.player.force.rechart()`
+  - in editor when you have deleted entities but they still appear in map until your character goes over the changed area
 
 # Guides
 - How to stream Factorio, setup OBS [How to stream Factorio](https://www.youtube.com/watch?v=bsfmgXaw1SQ)
@@ -80,11 +82,14 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - Re-Rolling:
   - Default Settings - [DS](https://clips.twitch.tv/TolerantHeartlessSardineVoHiYo)
   - Default Settings 100% - [DS100](https://clips.twitch.tv/LazyColorfulMeatloafSmoocherZ-8IWuwMrPvi-xTuBc)
+  - look for specific things that are important for your run that are very easy to discern like good lake and iron
 - not speedrun oriented, but a generically useful new player focused video can be found [here](https://youtu.be/E7ShDWXvD4M?si=eOPzi3Ld4NxOTDuR)
 
 # extremely useful techniques
 - skipping the cutscene
   - mash tab key at the start of a run
+- fast manually built compressor technique
+  - ![fast_manual_compressor](/images/fast_manual_compressor.png)
 - poledancing or poledrag 
   - performed by holding down left click to drag a power pole, switch to inserter, and then switch back power pole.
   - In 1.1 this was about 14 frames to swap between the two hotkeys, [in 1.1 Anti had power pole bound to right click](https://www.youtube.com/watch?v=97EaNC_NftA&t=607s) so he could drag with one extra key and have the double binding help him.
@@ -165,7 +170,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - Quality ice: uncommon ice from fulgora or from space dropped to aquilo to craft uncommon cryo science to save one rocket.
 
 
-# build planning tips
+# build planning tips and tools
 - The scaling difficulties in factorio: [you cant just build bigger](https://discord.com/channels/260103071017730048/1435625958576226405/1435642406006558881)
   - Going twice as fast requires building twice as much in half the time, so 4 times the building speed
   - The quadratic scaling law
@@ -173,6 +178,27 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - Scaling fast and balance of mall / Production / science 
 - Train tracks vs belt
 - segmenting your nuclear power plant to mitigate the effects of adding nuclear reactors causing dramatic temperature drops.
+- mixed rockets
+  - [Silo BluePrint Items](https://mods.factorio.com/mod/SiloBlueprintItems) - thuejk's mod to make proper ghost of items for your blueprint from items filled in silo
+  - [rocketcal.cc](https://rocketcal.cc/) and it's [demo video](https://youtu.be/U0wIQTYsvhw) are very useful to help get your mixed rocket loads generated.
+    - will need work to generate proper autocrafter from there but this is a huge help
+- [Staged Blueprint Planning (bp100)](https://mods.factorio.com/mod/bp100) - by GlassBricks
+- Factorio calculators
+  - mods for in game
+    - [Rate Calculator](https://mods.factorio.com/mod/RateCalculator) - by raiguard
+    - [Helmod: Assistant for planning your factory](https://mods.factorio.com/mod/helmod) - by Helfima's
+    - [Factory Planner](https://mods.factorio.com/mod/factoryplanner) - by Therenas
+  - outside of game
+    - [Factorio Calculator](https://kirkmcdonald.github.io/calc.html) - web based calculator
+    - [YAFC (Yet Another Factorio Calculator)](https://github.com/shpaass/yafc-ce/) - app based caluclator
+- [Bottleneck Lite](https://mods.factorio.com/mod/BottleneckLite) - by raiguard
+- [Belt Visualizer](https://mods.factorio.com/mod/belt-visualizer) - CodeGreen's mod to highlight belt lines
+- [mapshot](https://github.com/Palats/mapshot) - see high res images of maps from saves. useful for overview of base
+- [Factorio Cheat Sheet](https://factoriocheatsheet.com/) - useful ratios and other tips
+- [Editor Extensions](https://mods.factorio.com/mod/EditorExtensions) - by raiguard
+- [Milestones](https://mods.factorio.com/mod/Milestones) - by Wiwiweb
+- [Stats Gui](https://mods.factorio.com/mod/StatsGui) - by raiguard
+- [Quickbar Templates](https://mods.factorio.com/mod/QuickbarTemplates) - by raiguard
 
 # stuff that should have been in Factoriopedia
 - inserter item throughput and base handsize
@@ -208,11 +234,6 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - Filter order dependant on item id
 
 - Using item production as counters / limiters for other assemblers in very weird mall setups (like using assemblers in chest and taking them out as a signal, new 100p design)
-- mixed rockets
-  - for an in game mod to help with mixed rocket load planning, thuejk's mod `Silo BluePrint Items`a is great!
-  - ![](https://assets-mod.factorio.com/assets/04d7f145752fa0b85ee2a6d88fa6fa0dd1e6a7fd.thumb.png) https://mods.factorio.com/mod/SiloBlueprintItems
-  - https://rocketcal.cc/ and it's [demo video](https://youtu.be/U0wIQTYsvhw) are very useful to help get your mixed rocket loads generated.
-    - will need work to generate proper autocrafter from there but this is a huge help
 - Manual wiring of power poles, especially to isolate power networks, like in the old 100% power plant for pumps, and Aquilo for the water bootstrap
 - Counting items with burner inserters
 - [Sushi builds that don't use any circuitry](https://discord.com/channels/260103071017730048/1435625958576226405/1435644090963460346)
