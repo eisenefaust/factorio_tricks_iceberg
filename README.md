@@ -66,6 +66,10 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - car driving mode in controls settings
 - map rescan command: `/c game.player.force.rechart()`
   - in editor when you have deleted entities but they still appear in map until your character goes over the changed area
+- kill all enemy units (biters, worms, spawners) - useful when planning runs
+  - `/c game.forces["enemy"].kill_all_units()`
+- to stop enemies from being generated in new chunks - useful when planning runs
+    - `/c game.map_settings.enemy_expansion.enabled = false`
 
 # Guides
 - How to stream Factorio, setup OBS [How to stream Factorio](https://www.youtube.com/watch?v=bsfmgXaw1SQ)
