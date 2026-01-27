@@ -10,8 +10,8 @@ The mods that are used in the save file are ones that have generally been found 
 The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Factorio_Iceberg_Blueprint_Book.txt)
 
 # useful controls/hotkeys/menus/settings
-- Z to drop single items (hotkey `Z`) (Z-drop)
-  - spamming `Z` on belts to drop items faster
+- Z to drop single items (hotkey <kbd> Z </kbd>) (Z-drop)
+  - spamming <kbd> Z </kbd> on belts to drop items faster
   - ![z_drop](images/z_drop.png)
 - Alt mode
   - ![Alt_mode](images/alt_mode.png)
@@ -30,16 +30,16 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - ![tips_and_tricks](images/tips_and_tricks.png)
 - as does Factoriopedia
   - ![factoriopedia](images/factoriopedia.png)
-- `e` will confirm the window you are on, useful to quickly accept recipe or set filters or many other things. very useful for "Default Settings" speedruns
+- <kbd> e </kbd> will confirm the window you are on, useful to quickly accept recipe or set filters or many other things. very useful for "Default Settings" speedruns
   - ![e_confirm](images/e_confirm.png)
-- press \` to open the chat (and Lua console) to enter a command by default
+- press <kbd> \` </kbd> to open the chat (and Lua console) to enter a command by default
 - in multiplayer can use `[armor=name]` where name is the player in the chat (press \` to open the chat to enter a command by default)
 - in multiplayer can use `/open name` where name is the player in the chat
 - Dropping things into another player’s inventory, treat players like a chest! (latency can make it finicky)
-- `/editor` or `Ctrl + shift + F11`
-- `Ctrl + Shift + E` to open prototype explorer to see what is your current game.
+- `/editor` or <kbd> CTRL </kbd> + <kbd> SHIFT </kbd> + <kbd> F11 </kbd>
+- <kbd> CTRL </kbd> + <kbd> SHIFT </kbd> + <kbd> E </kbd> to open prototype explorer to see what is your current game.
   - will open browser to relevant pages in the wiki as needed
-- `Ctrl + Shift + F` to open prototype page of entity you are hovering over with your mouse.
+- <kbd> CTRL </kbd> + <kbd> SHIFT </kbd> + <kbd> F </kbd> to open prototype page of entity you are hovering over with your mouse.
   - Can see how much heat something consumes on Aquilo this way!
   - will open browser to relevant pages in the wiki as needed
 - shift left click for fast research queuing
@@ -66,10 +66,17 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - car driving mode in controls settings
 - map rescan command: `/c game.player.force.rechart()`
   - in editor when you have deleted entities but they still appear in map until your character goes over the changed area
-- kill all enemy units (biters, worms, spawners) - useful when planning runs
+- kill all enemy units (biters, worms, but leave spawners around) - useful when planning runs
   - `/c game.forces["enemy"].kill_all_units()`
-- to stop enemies from being generated in new chunks - useful when planning runs
-    - `/c game.map_settings.enemy_expansion.enabled = false`
+- to stop enemies from forming scouting parties to expand into new nests
+  - `/c game.map_settings.enemy_expansion.enabled = false`
+  - `/c game.player.surface.peaceful_mode = true`
+- stop enemies from being generated in new chunks - useful when planning runs
+  - turn off enemies in current map gen settings
+    - enemy bases
+    - enemy expansion
+- remove all enemies and enemy structures
+  - `/c for _, entity in pairs(game.player.surface.find_entities_filtered{force = "enemy"}) do entity.destroy() end`
 
 # Guides
 - How to stream Factorio, setup OBS [How to stream Factorio](https://www.youtube.com/watch?v=bsfmgXaw1SQ)
@@ -88,6 +95,9 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - Default Settings 100% - [DS100](https://clips.twitch.tv/LazyColorfulMeatloafSmoocherZ-8IWuwMrPvi-xTuBc)
   - look for specific things that are important for your run that are very easy to discern like good lake and iron
 - not speedrun oriented, but a generically useful new player focused video can be found [here](https://youtu.be/E7ShDWXvD4M?si=eOPzi3Ld4NxOTDuR)
+- how to make a cut out or overlay to see base in preview
+  - https://discord.com/channels/1059129099433553940/1059144508002013314/1408236093698216039
+  - https://discord.com/channels/1059129099433553940/1059144508002013314/1408526099343872122
 
 # extremely useful techniques
 - skipping the cutscene
@@ -110,13 +120,13 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
     - Two potentially faster options:
       - Trick 1: Using underground belts to span the errant belts, and then mine the underground belts, requiring less mining time.
       - Trick 2: If an errant belt span is laid down next to a belt that should be there, you can use a bunch of splitters to remove the errant one by putting a bunch of splitters down to cover both belts, and then overbuild the correct belt-splitter with belt, and drag forward, to auto pick up the splitters and remove the errant belt.
-        - https://www.twitch.tv/mazmot/clip/PunchyStrongKoupreyKappa-zqZa6HHYjNHXZNGu
+        - [Mazmot splitter clip](https://www.twitch.tv/mazmot/clip/EntertainingAltruisticGrouseNinjaGrumpy-lDRW-HVVejD2uead)
         - needs good precision
         - only works for shifting 1 tile (but that's the most common mistake)
         - needs a dozen or so splitters to be worth it
 - Prerotate with entities that dont have a rotation (1.1 useful only)
   - prerotate in general for 1.1
-  - [Mazmot clip](https://www.twitch.tv/mazmot/clip/WrongMagnificentSalamanderKAPOW-j9X1n39KPLIACgDm)
+  - [Mazmot prerotate clip](https://www.twitch.tv/mazmot/clip/WrongMagnificentSalamanderKAPOW-j9X1n39KPLIACgDm)
 - Dropping stuff on ground and building over it (only in 1.1, was used to place modules quickly)
 - Pppppp (Pantabo's Performant Power Pole Placement Plan) or blipi (Belt Lock Interrupt Placement Interpolation)
   - belt lock 
@@ -315,7 +325,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 # good to know
 - building rail while driving locomotive
 - crafting queue black hole storage
-- dragging the flag in a blueprint
+- dragging the flag in a blueprint - shift by default
 - zippering from Zaspar's TAS
 - Zig zag or diagonal belts for shorter belt delay
 - Walking around the corner on a belt is only faster than the diagonal at blue belt and above
