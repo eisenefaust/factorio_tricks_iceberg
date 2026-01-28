@@ -132,9 +132,13 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - belt lock 
   - must click and hold on belt as if you are going to drag it, bring cursor out of range, switch entities to what you want to place and then back to original belt. The game will place new entities between where you started to drag belts to where your cursor is, until it is out of range to place the new entity. you switch back to  the belt to have your movement make your cursor attach to the new position of the new belt position so you can place the next row or column of entities. In the example video, a belt is selected and the new entity is yellow inserter or power poles depending on the row, the furnaces are already placed to prevent new entities from being placed in those positions. The upgrade planner is used to prevent placing belts in the empty gaps.
   - [clip](https://discord.com/channels/260103071017730048/260103071017730048/1399409772633260032)
-  - [AntiElitz Explaining it](https://www.twitch.tv/videos/2156553379) also \!pppppp or \!blipi in the discord linked above
+  - [AntiElitz Explaining blippi](https://www.twitch.tv/videos/2156553379) also \!pppppp or \!blipi in the discord linked above
 - recover blueprints from save game - [https://forums.factorio.com/viewtopic.php?t=94427](https://forums.factorio.com/viewtopic.php?t=94427)
 - to properly paste blueprints on Aquilo, [place concrete on different ground types first](https://www.twitch.tv/teammacintyre_derek/clip/SullenPluckySproutGrammarKing-Edm_FmUq5mgxu5fw)
+- Getting a good Map and Map Generation Settings
+  - [DS map selection](https://clips.twitch.tv/TolerantHeartlessSardineVoHiYo)
+  - [1.1 100% map selection](https://clips.twitch.tv/LazyColorfulMeatloafSmoocherZ-8IWuwMrPvi-xTuBc)
+  - [Oasis map gen setting](https://www.twitch.tv/antielitz/clip/HonorableCulturedAyeayeDansGame-8fPoJdJCYIA4wNl9)
 
 # common builds
 - Belt prio of closer side
@@ -336,7 +340,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
 - Decon planner specifics in general: ghost types, fruits, items etc
 - Nukes for cliffs
 - moving the storage chest for faster bot beacon decon
-- Cars to bridge lava. cars hitbox in general -> can put the car essentially on top of inserters. can allow for stupid setups (look up antis fulgora island design)
+- Cars to bridge lava. cars hitbox in general -> can put the car essentially on top of inserters. can allow for stupid setups (look up Anti's fulgora island design)
 - car belts
 - Construction belt
 - using boilers to filter fuel from mixed lanes 
