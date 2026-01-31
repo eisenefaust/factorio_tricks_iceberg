@@ -225,6 +225,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - blue is 2.4 items/s (handsize 1)
   - bulk (green) is 2.4 items/s (handsize 2)
   - stack (white) is 2.4 items/s (handsize 6)
+  - https://wiki.factorio.com/Inserters for a large table of all types of loading speeds for inserters
 
 
 
