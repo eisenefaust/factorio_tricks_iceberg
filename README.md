@@ -47,11 +47,37 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - ![disable_multi_undo](images/disable_multi_undo.png)
 - pick placing or Q placing or pippete placing (hotkey `q`)
 - smart belt turn off (with pipette and place, more useful in 1.1)
-- replays how to enable them and use them  
 - how to setup several instances
 - resetting achievements (using multiple instances to keep steam achievements)
 - setup shared savegames
 - The rest settings - ctrl + alt + left click on settings in the menu
+  - enable replays in all runs:
+    - check: `check-enable-replay-checkbox`
+  - to not pause game while setting research queue:
+    - uncheck: `technology-gui-pauses-game`
+  - to load games faster:
+    - check: `cache-prototype-data`
+    - check: `cache-sprite-atlas`
+  - to extract blueprints from save that are not in "game blueprints" section
+    - check: `bypass-library-sync`
+    - more details can be found here: [Last hope: blueprint library recovery from save file. (v1.1.9+)](https://forums.factorio.com/viewtopic.php?t=94427)
+- play in "Multiplayer mode":
+  - auto sets to not pause when looking at technology tree and setting research queue
+  - will load faster into the game since it doesn't load all the blueprints before starting the game so you can easily decon huge rocks during start in map preview
+  - ![multiplayer_settings](images/multiplayer_settings.png)
+- use a standalone instance of Factorio:
+  - no longer have to deal Steam sync overwriting blueprints
+  - version locking if trying to replay a save from a previous run
+  - different instances for different categories
+  - can use `-c <config_file>` to have multiple instances refer to the same installation
+    - can configure the autosaves to be in a different location with `write-data=/path/to/new/factorio/write`
+      - the `read-data` path is where to get factorio game data from, to save on space, this can be the same location for each "instance".
+      - Note: this will place save, mods, temp, scenario under that path.
+      - No known way to seperate autosave location from other paths easily.
+  - [Install Guide](https://wiki.factorio.com/Install_guide)
+  - [Application Directory](https://wiki.factorio.com/Application_directory)
+  - [Factorio Download: stable](https://factorio.com/download)
+  - [Factorio Download: experimental](https://factorio.com/download/experimental)
 - Reducing explosions and gun sounds
 - change preview chunks
 - unsorting your inventory for more flexibility, very advanced strat
@@ -77,6 +103,7 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
     - enemy expansion
 - remove all enemies and enemy structures
   - `/c for _, entity in pairs(game.player.surface.find_entities_filtered{force = "enemy"}) do entity.destroy() end`
+- 
 
 # Guides
 - How to stream Factorio, setup OBS [How to stream Factorio](https://www.youtube.com/watch?v=bsfmgXaw1SQ)
