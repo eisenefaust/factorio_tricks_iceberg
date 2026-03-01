@@ -15,6 +15,17 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - ![z_drop](images/z_drop.png)
 - Alt mode
   - ![Alt_mode](images/alt_mode.png)
+  - interface options for Alt mode:
+    - inserter arrows, combinator settings, beacon modules are off by default and are particularly useful
+    - ![alt_mode_options](images/alt_mode_options.png)
+- Interface options of particular note:
+  - `show mouse and keyboard control hints` - (very uyseful to remind you what you can do in context)
+  - `show turret radius when blueprinting` - great for when you are trying to make sure a nest is captured or see your ship railgun arcs for that final solar edge push
+  - `Show all items in selection list` - combined with below to make it super useful. 
+  - `Show parameters in selection list` - useful to set recipes in machines with tech you have not unlocked yet
+  - `Pick ghost item if no items are available` - useful when quickly trying to get things down that bots can place for you from network
+  - ![notable_interface_options](images/notable_interface_options.png)
+- Reset/Delete achievements in `Other settings` - use multiple instances to keep steam achievements
 - Combinations of control and left / right click for all inventory or held stack
   - ![stack_transfers](images/stack_transfers.png)
 - Inserter dragging over entities
@@ -43,12 +54,8 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - Can see how much heat something consumes on Aquilo this way!
   - will open browser to relevant pages in the wiki as needed
 - shift left click for fast research queuing
-- disable multi undo
-  - ![disable_multi_undo](images/disable_multi_undo.png)
 - pick placing or Q placing or pippete placing (hotkey `q`)
 - smart belt turn off (with pipette and place, more useful in 1.1)
-- how to setup several instances
-- resetting achievements (using multiple instances to keep steam achievements)
 - setup shared savegames
 - The rest settings - ctrl + alt + left click on settings in the menu
   - enable replays in all runs:
@@ -61,6 +68,8 @@ The blueprint book is also available [Factorio_Iceberg_Blueprint_Book.txt](./Fac
   - to extract blueprints from save that are not in "game blueprints" section
     - check: `bypass-library-sync`
     - more details can be found here: [Last hope: blueprint library recovery from save file. (v1.1.9+)](https://forums.factorio.com/viewtopic.php?t=94427)
+  - disable multi undo
+    - ![disable_multi_undo](images/disable_multi_undo.png)
 - play in "Multiplayer mode":
   - auto sets to not pause when looking at technology tree and setting research queue
   - will load faster into the game since it doesn't load all the blueprints before starting the game so you can easily decon huge rocks during start in map preview
